@@ -4,6 +4,8 @@ body {
     margin: 0;
 }  
 
+/*interlinea 140 %*/
+
 header {
     max-width: auto;
     display: flex;
@@ -82,7 +84,7 @@ section.paragrafo1 p {
     max-width: 500px;
     color:#54742B;
     font-size: 30px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 section.paragrafo1 h3 {
@@ -113,7 +115,7 @@ section.paragrafo2 p {
     max-width: 500px;
     color:#54742B;
     font-size: 30px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 section.paragrafo2 h3 {
@@ -149,7 +151,7 @@ section.paragrafo3 p {
     max-width: 500px;
     color:#54742B;
     font-size: 30px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 section.paragrafo3 h3 {
@@ -164,7 +166,7 @@ section.paragrafo4 p {
     margin-bottom: 130px;
     color:#54742B;
     font-size: 30px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 footer {
