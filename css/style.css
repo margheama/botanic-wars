@@ -315,6 +315,9 @@ footer ul a:hover {
 
 @media (max-width:600px) {
    
+
+/*sistemare margini titoli*/
+
     header {
         display: grid;
         justify-content: center;   
@@ -348,6 +351,7 @@ footer ul a:hover {
     section.paragrafo1 h3 {
         font-size: 27px;
         line-height: 25px;
+        padding: 10px;
     }  
     
     section.paragrafo1 p {
@@ -357,6 +361,7 @@ footer ul a:hover {
         font-size: 27px;
         max-width: 200px;
         line-height: 25px;
+        padding: 10px;
     }  
     
     section.paragrafo2 p {
@@ -366,6 +371,7 @@ footer ul a:hover {
     section.paragrafo3 h3 {
         font-size: 27px;
         line-height: 25px;
+        padding: 10px;
     }  
     
     section.paragrafo3 p {
