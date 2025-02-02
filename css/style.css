@@ -386,6 +386,15 @@ footer ul a:hover {
         flex-direction: column;
         gap: 16px;
     }
+
+    footer {
+        justify-content: left;
+        padding: 100px 100px 100px 50px;
+    }
+    footer ul {
+        display: grid;
+        gap: 20px;
+    }
 }  
 
 h1 {
