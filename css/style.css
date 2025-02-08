@@ -4,8 +4,6 @@ body {
     margin: 0;
 }  
 
-/*interlinea 140 %*/
-
 header {
     max-width: auto;
     display: flex;
@@ -53,7 +51,7 @@ section.titoli h1 {
     font-size: 150px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120px; 
+    line-height: 120px;    
     word-wrap: break-word;
 }
 
@@ -84,7 +82,7 @@ section.paragrafo1 p {
     max-width: 500px;
     color:#54742B;
     font-size: 30px;
-    /*text-align: justify;*/
+    line-height: 140%;
 }
 
 section.paragrafo1 h3 {
@@ -96,10 +94,11 @@ section.paragrafo1 h3 {
     border-bottom: 1px solid #2D4718;
 }
 
+
 h3 {
     font-size: 40px;
     color: #2D4718;
-    line-height: 40px; 
+    line-height: 100%;
     word-wrap: break-word;
 }
 
@@ -115,7 +114,7 @@ section.paragrafo2 p {
     max-width: 500px;
     color:#54742B;
     font-size: 30px;
-    /*text-align: justify;*/
+    line-height: 140%;
 }
 
 section.paragrafo2 h3 {
@@ -151,7 +150,7 @@ section.paragrafo3 p {
     max-width: 500px;
     color:#54742B;
     font-size: 30px;
-    /*text-align: justify;*/
+    line-height: 140%;
 }
 
 section.paragrafo3 h3 {
@@ -166,7 +165,7 @@ section.paragrafo4 p {
     margin-bottom: 130px;
     color:#54742B;
     font-size: 30px;
-    /*text-align: justify;*/
+    line-height: 140%;
 }
 
 footer {
@@ -213,6 +212,18 @@ footer ul a:hover {
         height: 100%;
         width: 100%;
         border-radius: 10px 10px 10px 10px;
+    }
+
+    h3 {
+        padding: 15px;
+    }
+
+    section.paragrafo2 {
+        gap: 30px;
+    }
+
+    section.paragrafo3 {
+        gap: 15px;
     }
 }
 
@@ -316,8 +327,6 @@ footer ul a:hover {
 @media (max-width:600px) {
    
 
-/*sistemare margini titoli*/
-
     header {
         display: grid;
         justify-content: center;   
@@ -350,7 +359,6 @@ footer ul a:hover {
 
     section.paragrafo1 h3 {
         font-size: 27px;
-        line-height: 25px;
         padding: 10px;
     }  
     
@@ -360,7 +368,6 @@ footer ul a:hover {
     section.paragrafo2 h3 {
         font-size: 27px;
         max-width: 200px;
-        line-height: 25px;
         padding: 10px;
     }  
     
@@ -370,7 +377,6 @@ footer ul a:hover {
 
     section.paragrafo3 h3 {
         font-size: 27px;
-        line-height: 25px;
         padding: 10px;
     }  
     
